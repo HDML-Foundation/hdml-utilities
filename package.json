@@ -1,8 +1,12 @@
 {
-  "name": "hdml-parser",
+  "name": "hdml-utilities",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
   "scripts": {
     "build": "webpack",
     "start": "webpack serve --open",
